@@ -12,5 +12,6 @@ spec:
         - name: RELEASE
           value: Stage Release
         - $patch: replace
-        image: quay.io/mavazque/tekton-reversewords:testt
+        #image: quay.io/mavazque/tekton-reversewords:testt
+        image: image-registry.openshift-image-registry.svc:5000/demo/sonarqube-example-git
         name: reverse-words
