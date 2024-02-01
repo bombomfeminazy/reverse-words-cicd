@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
       - name: reverse-words
-        image: quay.io/mavazque/tekton-reversewords:latest
+        #image: quay.io/mavazque/tekton-reversewords:latest
+        image: image-registry.openshift-image-registry.svc:5000/demo/sonarqube-example-git
         securityContext:
           capabilities:
             drop:
