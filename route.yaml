@@ -10,6 +10,6 @@ spec:
     insecureEdgeTerminationPolicy: Redirect
   to:
     kind: "Service"
-    name: demo
+    name: workspace
     weight: 100
 
