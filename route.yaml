@@ -10,6 +10,6 @@ spec:
     insecureEdgeTerminationPolicy: Redirect
   to:
     kind: "Service"
-    name: reverse-words
+    name: workspace
     weight: 100
 
