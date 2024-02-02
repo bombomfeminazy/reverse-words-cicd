@@ -1,4 +1,4 @@
-namespace: argocd
+namespace: workspace
 commonLabels:
   app: reversewords-stage
 bases:
