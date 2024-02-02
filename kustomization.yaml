@@ -1,4 +1,4 @@
-namespace: reverse-words-stage
+namespace: argocd
 commonLabels:
   app: reversewords-stage
 bases:
