@@ -1,4 +1,4 @@
-namespace: demo
+namespace: workspace
 commonLabels:
   app: reversewords-stage
 bases:
